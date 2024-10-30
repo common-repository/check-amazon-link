@@ -1,0 +1,159 @@
+
+#az_link_instances td {
+    padding: 5px;
+}
+
+#az_link_instances tr:nth-child(even) {
+    background-color: #e9e9e9;
+
+}
+#az_link_instances tr:nth-child(odd) {
+    background-color: white;
+
+}
+
+
+
+#az_link_instances td { text-align: center }
+#az_link_instances td:first-child { text-align: left }
+#az_link_instances td:nth-child(2){ text-align: left }
+
+
+
+#az_link_instances .stock, .tag, .checked {
+    text-align: center;
+}
+
+#az_link_instances a {
+    text-decoration: none;
+}
+
+
+
+table#az_link_instances {
+    border: 2px solid green;
+    border-collapse: collapse;
+    margin: 10px;
+    width: 90%;
+
+}
+
+
+
+#az_link_instances th {
+    padding: 5px;
+    background-color:#409458;
+    color: white;
+    font-size: 1.5em;
+}
+
+.out_of_stock, .limited_stock {
+    color: red;
+}
+
+
+
+.ui-progressbar {
+    position: relative;
+}
+.azlc_progress-label  {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+}
+
+
+
+#azlc_progressbar {
+    width:300px;
+}
+
+#notices_box {
+
+    padding: 5px;
+}
+
+.azlc_error {
+    color: red;
+}
+
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after {
+    content: " \25B4\25BE"
+}
+
+
+#azlc_spinner {
+    position:relative;
+}
+
+#azlc_toggle, #azlc_refresh_table {
+    margin-top: 10px;
+}
+
+#lookup_options {
+    padding-left: 10px;
+    background-color: #ffffff;
+}
+
+#azlc_tools_page {
+    background-color: #ffffff;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+#azlc_top_table_nav {
+    display: inline-block;
+    padding-left: 15px;
+}
+
+#azlc_bottom_table_nav {
+    display: inline-block;
+    float: right;
+
+}
+
+#az_link_instances th::after {
+    content: " \25B4\25BE";
+}
+
+#azlc_footer {
+    display: inline-block;
+    padding: 10px;
+}
+
+.az_error {
+    color: red;
+}
+
+.az_success {
+    color: green;
+}
+
+#az_table_container {
+    position: relative;
+}
+
+#azlc_loading img {
+    display: inline-block;
+    padding-left: 20px;
+}
+#azlc_loading h3 {
+    display: inline-block;
+}
+#azlc_loading {
+    background: white;
+    padding: 10px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+    display: none;
+}
+
+.linad {
+    margin: 10px;
+}
